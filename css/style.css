@@ -5,6 +5,8 @@ body {
   margin: 0;
 }
 .banner {
-  background: url(..//img/Fon.jpg) no-repeat center;
-  background-size: contain;
+  background: coral no-repeat cover center;
+}
+header {
+  padding-top: 39px;
 }
