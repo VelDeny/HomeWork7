@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.banner {
+  background: url(..//img/Fon.jpg) no-repeat center;
+  background-size: contain;
+}
