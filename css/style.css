@@ -43,6 +43,8 @@ header {
 }
 .title {
   text-transform: uppercase;
+  font-family: "Source sans pro";
+  font-size: 35px;
 }
 .container {
   width: 606px;
@@ -55,24 +57,17 @@ p,
   text-align: center;
 }
 .slider {
+  background: url(..//img/.png) no-repeat center;
   display: block;
   width: 37px;
   height: 37px;
-  border: 2px solid #19bd9a;
   border-radius: 50%;
   background-color: #19bd9a;
   text-align: center;
   text-decoration: none;
-  padding: 10px;
-  color: #ffffff;
   margin-left: auto;
   margin-right: auto;
-}
 .nav a,
 .fonts {
   font-family: "Open Sans";
-}
-.title {
-  font-family: "Source sans pro";
-  font-size: 35px;
 }
