@@ -1,42 +1,39 @@
 @import url(reset.css);
-header {
-  font-size: 0;
+.banner {
+  background: url(..//img/Fon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 39px;
+  padding-bottom: 78px;
+}
+header {
   margin-bottom: 218px;
-}
-.logo {
-  width: 113px;
-  height: 33px;
-}
-.logo,
-.nav {
-  display: inline-block;
-  font-size: 16px;
-  width: 50%;
+  vertical-align: center;
 }
 .nav {
   text-align: right;
   color: #ffffff;
+  font-size: 0;
 }
 .menu {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: center;
   text-decoration: none;
   color: #ffffff;
-  padding: 5px 15px;
+  border: 1px solid transparent
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .menu:hover {
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 40px/40px;
 }
 .wraper {
   width: 1172px;
   margin-left: auto;
   margin-right: auto;
-}
-.banner {
-  background: url(..//img/Fon.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .title {
   text-transform: uppercase;
