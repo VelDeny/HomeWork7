@@ -1,12 +1,78 @@
-* {
-  box-sizing: border-box;
+@import url(reset.css);
+header {
+  font-size: 0;
+  padding-top: 39px;
+  margin-bottom: 218px;
 }
-body {
-  margin: 0;
+.logo {
+  width: 113px;
+  height: 33px;
+}
+.logo,
+.nav {
+  display: inline-block;
+  font-size: 16px;
+  width: 50%;
+}
+.nav {
+  text-align: right;
+  color: #ffffff;
+}
+.menu {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px;
+}
+.menu:hover {
+  border: 2px solid #ffffff;
+  border-radius: 40px/40px;
+}
+.wraper {
+  width: 1172px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .banner {
-  background: coral no-repeat cover center;
+  background: url(..//img/Fon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-header {
-  padding-top: 39px;
+.title {
+  text-transform: uppercase;
+}
+.container {
+  width: 606px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.title,
+p {
+  text-align: center;
+  color: #ffffff;
+}
+.menufooter {
+  display: block;
+  width: 37px;
+  height: 37px;
+  border: 2px solid #19bd9a;
+  border-radius: 50%;
+  background-color: #19bd9a;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  margin-bottom: 78px;
+}
+.nav a,
+.fonts {
+  font-family: "Open Sans";
+}
+.title {
+  font-family: "Source sans pro";
+  font-size: 35px;
 }
